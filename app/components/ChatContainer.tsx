@@ -2,10 +2,10 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Card } from "@/components/ui/card";
-import ChatMessage from "./ChatMessage";
 import ChatInput from "./ChatInput";
 import EmptyState from "./EmptyState";
 import LoadingMessage from "./LoadingMessage";
+import ChatMessage from "./ChatMessage";
 
 type Message = {
   role: "user" | "assistant";

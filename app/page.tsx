@@ -1,6 +1,6 @@
 "use client";
 
-import ChatContainer from "@/components/chat/ChatContainer";
+import ChatContainer from "@/app/components/ChatContainer";
 
 export default function Home() {
   return (
