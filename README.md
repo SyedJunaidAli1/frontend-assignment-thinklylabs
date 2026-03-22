@@ -7,7 +7,7 @@ Instead of a generic AI assistant, this project focuses on creating a **themed c
 ---
 
 ## 🚀 Live Demo
-👉 https://your-vercel-link.vercel.app
+👉 https://frontend-assignment-thinklylabs.vercel.app
 
 ---
 
