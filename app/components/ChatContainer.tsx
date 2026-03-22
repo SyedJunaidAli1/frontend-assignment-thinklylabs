@@ -32,7 +32,7 @@ export default function ChatContainer() {
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
-        body: JSON.stringify({ message: text }),
+        body: JSON.stringify({ messages: newMessages }),
       });
 
       const data = await res.json();
@@ -49,9 +49,9 @@ export default function ChatContainer() {
   };
 
   return (
-    <Card className="w-full max-w-2xl h-[80vh] flex flex-col p-4 bg-neutral-900 border-neutral-800">
+    <Card className="w-full max-w-2xl h-[80vh] flex flex-col p-4 ">
       {/* Header */}
-      <div className="mb-4 border-b border-neutral-800 pb-2">
+      <div className="mb-4 border-b border pb-2">
         <h1 className="text-lg font-semibold">Skyrim Chat</h1>
         <p className="text-sm text-neutral-400">Talk to a Whiterun Guard</p>
       </div>
